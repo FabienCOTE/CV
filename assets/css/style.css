@@ -13,8 +13,17 @@ header .container-fluid {
 }
 
 .header h1 {
+  padding-top: 5px;
+  width: 300px;
   color: white;
+  background-color: rgba(52, 58, 64, 0.8);
 }
+
+/*    Navbar    */
+nav {
+  font-weight: bold;
+}
+
 
 /*    Background Section    */
 #picture1 {
@@ -33,7 +42,24 @@ header .container-fluid {
   opacity: 0.5;
 }
 
-/*    section   */
+/*    Section   */
+section:target {
+  padding-top: 5em;
+  margin-top: -2em;
+}
+
 section {
+  padding-top: 30px;
   height: 600px;
+}
+
+section h1 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/*    footer  */
+footer {
+  background-color: #343A40;
+  height: 75px;
 }
