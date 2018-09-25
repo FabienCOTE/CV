@@ -1,83 +1,198 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-    <!-- Me CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-  </head>
-  <body id="home">
-    <button onclick="topFunction()" id="myBtn" title="Aller en haut">Top</button>
-    <header>
-      <div class="container-fluid">
-        <div class="header animated slideInDown">
-          <div>
-            IMG
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <!-- Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+  <!-- Me CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+<body id="home">
+  <button onclick="topFunction()" id="myBtn" title="Aller en haut">Top</button>
+  <header>
+    <div class="container-fluid">
+      <div class="header animated bounceInDown">
+        <h1>Fabien Côté</h1>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Compétences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#formation">Formation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Expériences Professionnelles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section id="skills" class="container-fluid">
+    <div id="mooveSlide1">
+      <h1>Compétences</h1>
+      <div class="container">
+        <h2 class="mb-5">Langage</h2>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="progress blue">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">
+                <p>80%</p>
+              </div>
+            </div>
+            <p class="text-center text-uppercase mt-2 mb-5">html</p>
           </div>
-          <div>
-            <h1 class="mx-auto">Fabien Côté</h1>
+          <div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">
+                <p>60%</p>
+              </div>
+            </div>
+            <p class="text-center text-uppercase mt-2 mb-5">css</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="progress pink">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">
+                <p>30%</p>
+              </div>
+            </div>
+            <p class="text-center text-uppercase mt-2 mb-5">javascript</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="progress green">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">
+                <p>10%</p>
+              </div>
+            </div>
+            <p class="text-center text-uppercase mt-2 mb-5">...</p>
           </div>
         </div>
       </div>
-    </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Compétences</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#formation">Formation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Expériences Professionnelles</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+      <div class="container">
+        <h2 class="mb-5">Framework</h2>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="progress red">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">
+                <p>70%</p>
+              </div>
+            </div>
+            <p class="text-center text-uppercase mt-2 mb-5">bootstrap</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="progress purple">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">
+                <p>10%</p>
+              </div>
+            </div>
+            <p class="text-center text-uppercase mt-2 mb-5">Jquery</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="progress teal">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">
+                <p>10%</p>
+              </div>
+            </div>
+            <p class="text-center text-uppercase mt-2 mb-5">AngularJS</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="progress aqua">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">
+                <p>10%</p>
+              </div>
+            </div>
+            <p class="text-center text-uppercase mt-2 mb-5">...</p>
+          </div>
+        </div>
       </div>
-    </nav>
-    <section id="skills" class="container-fluid">
-      <div id="mooveSlide1">
-        <h1>Compétences</h1>
-        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure ?</p>
-      </div>
-    </section>
-    <section id="picture1"></section>
-    <section id="formation" class="container-fluid">
-      <div id="mooveSlide2">
-        <h1>Formation</h1>
-        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure ?</p>
-      </div>
-    </section>
-    <section id="picture2"></section>
-    <section id="experience" class="container-fluid">
-      <div id="mooveSlide3">
-        <h1>Expériences Professionnelles</h1>
-        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure ?</p>
-      </div>
-    </section>
-    <section id="picture3"></section>
-    <section id="contact" class="container-fluid">
-      <div id="mooveSlide4">
-        <h1>Contact</h1>
-        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure ?</p>
-      </div>
-    </section>
-    <footer>
-    </footer>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/javascript.js"></script>
-  </body>
+  </section>
+  <section id="picture1"></section>
+  <section id="formation" class="container-fluid">
+    <div id="mooveSlide2">
+      <h1>Formation</h1>
+      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure ?</p>
+    </div>
+  </section>
+  <section id="picture2"></section>
+  <section id="experience" class="container-fluid">
+    <div id="mooveSlide3">
+      <h1>Expériences Professionnelles</h1>
+      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure ?</p>
+    </div>
+  </section>
+  <section id="picture3"></section>
+  <section id="contact" class="container-fluid">
+    <div id="mooveSlide4">
+      <h1>Contact</h1>
+      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure ?</p>
+    </div>
+  </section>
+  <footer>
+  </footer>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/javascript.js"></script>
+</body>
 </html>
