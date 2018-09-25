@@ -1,3 +1,4 @@
+/*    Header    */
 header .container-fluid {
   background: url(../../images/home.jpg) no-repeat bottom;
   background-size: cover;
@@ -15,10 +16,7 @@ header .container-fluid {
   color: white;
 }
 
-#picture1, #picture2, #picture3 {
-  height: 500px;
-}
-
+/*    Background Section    */
 #picture1 {
   background: url(../../images/picture1.jpg) no-repeat center center fixed;
 }
@@ -29,4 +27,13 @@ header .container-fluid {
 
 #picture3 {
   background: url(../../images/picture3.jpg) no-repeat center center fixed;
+}
+
+#picture1, #picture2, #picture3 {
+  opacity: 0.5;
+}
+
+/*    section   */
+section {
+  height: 600px;
 }
