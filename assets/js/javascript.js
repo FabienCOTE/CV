@@ -15,18 +15,25 @@ function myFunction() {
         document.getElementById("mooveSlide2").style.display = "none";
       }
 
-    if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500) {
+    if (document.body.scrollTop > 2800 || document.documentElement.scrollTop > 2800) {
         document.getElementById("mooveSlide3").className = "slideInLeft animated";
         document.getElementById("mooveSlide3").style.display = "block";
       } else {
         document.getElementById("mooveSlide3").style.display = "none";
       }
 
-    if (document.body.scrollTop > 3700 || document.documentElement.scrollTop > 3700) {
+    if (document.body.scrollTop > 3900 || document.documentElement.scrollTop > 3900) {
         document.getElementById("mooveSlide4").className = "slideInRight animated";
         document.getElementById("mooveSlide4").style.display = "block";
       } else {
         document.getElementById("mooveSlide4").style.display = "none";
+      }
+
+    if (document.body.scrollTop > 5200 || document.documentElement.scrollTop > 5200) {
+        document.getElementById("mooveSlide5").className = "slideInLeft animated";
+        document.getElementById("mooveSlide5").style.display = "block";
+      } else {
+        document.getElementById("mooveSlide5").style.display = "none";
       }
 
     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {

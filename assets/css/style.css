@@ -75,7 +75,11 @@ nav {
   background: url(../../images/picture3.jpg) no-repeat center center fixed;
 }
 
-#picture1, #picture2, #picture3 {
+#picture4 {
+  background: url(../../images/picture3.jpg) no-repeat center center fixed;
+}
+
+#picture1, #picture2, #picture3 , #picture4 {
   opacity: 0.5;
 }
 
@@ -177,7 +181,7 @@ footer {
   height: 90%;
   border-radius: 50%;
   background: #44484b;
-  font-size: 1rem;
+  font-size: 3vh;
   color: #fff;
   line-height: 135px;
   text-align: center;
