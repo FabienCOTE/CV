@@ -5,18 +5,8 @@
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #343A40;
-  color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #555;
 }
 
 /*    Header    */
@@ -26,13 +16,13 @@ header {
   height: 500px;
 }
 
-header h1, header p {
+header h1, header a {
   background-color: rgba(0,0,0, 0.6);
   font-size: 5vh;
   border: 10px solid #f1f1f1;
 }
 
-header p {
+header a {
   width: 70%;
   font-size: 2vh;
   border: 3px solid #f1f1f1;
@@ -76,7 +66,7 @@ nav {
 }
 
 #picture4 {
-  background: url(../../images/picture3.jpg) no-repeat center center fixed;
+  background: url(../../images/picture4.jpg) no-repeat center center fixed;
 }
 
 #picture1, #picture2, #picture3 , #picture4 {
@@ -101,6 +91,11 @@ section h1 {
 
 #mooveSlide1, #mooveSlide2, #mooveSlide3, #mooveSlide4 {
   display: none;
+}
+
+/*    mise en page    */
+a:hover {
+  text-decoration: none;
 }
 
 /*    footer  */

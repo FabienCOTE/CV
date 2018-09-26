@@ -37,9 +37,14 @@ function myFunction() {
       }
 
     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("myBtn").className = "lightSpeedIn animated";
         document.getElementById("myBtn").style.display = "block";
       } else {
-        document.getElementById("myBtn").style.display = "none";
+        document.getElementById("myBtn").className = "lightSpeedOut animated";
+
+        function miseEnAttente() {
+          setTimeOut(function(){document.getElementById("myBtn").style.display = "none";}, 2000)
+        }
       }
     }
 
