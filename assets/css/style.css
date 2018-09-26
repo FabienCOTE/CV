@@ -95,8 +95,16 @@ header a:hover {
   border: 3px solid #fbc531;
 }
 
-.color {
+.colorA {
   color: #fbc531;
+}
+
+.colorB {
+  color: #44bd32;
+}
+
+.colorC {
+  color: #40739e;
 }
 
 /*    navbar  */
@@ -208,9 +216,9 @@ footer {
   left: 5%;
 }
 
-/*    blue    */
+/*    language    */
 .progress.blue .progress-bar {
-  border-color: blue ;
+  border-color: #44bd32 ;
 }
 
 .progress.blue .progress-left .progress-bar {
@@ -221,9 +229,8 @@ footer {
   animation: loading-1 1.8s linear forwards;
 }
 
-/*    yellow    */
 .progress.yellow .progress-bar {
-  border-color: yellow;
+  border-color: #44bd32;
 }
 
 .progress.yellow .progress-left .progress-bar {
@@ -234,27 +241,25 @@ footer {
   animation: loading-1 1.8s linear forwards;
 }
 
-/*    pink  */
 .progress.pink .progress-bar {
-  border-color: pink;
+  border-color: #44bd32;
 }
 
 .progress.pink .progress-right .progress-bar {
   animation: loading-4 1s linear forwards 1.8s ;
 }
 
-/*    green */
 .progress.green .progress-bar {
-  border-color: green;
+  border-color: #44bd32;
 }
 
 .progress.green .progress-right .progress-bar {
   animation: loading-6 1s linear forwards 1.8s;
 }
 
-/*    red    */
+/*    Framework   */
 .progress.red .progress-bar {
-  border-color: red;
+  border-color: #40739e;
 }
 
 .progress.red .progress-left .progress-bar {
@@ -265,27 +270,24 @@ footer {
   animation: loading-1 1.8s linear forwards;
 }
 
-/*    Purple    */
 .progress.purple .progress-bar {
-  border-color: purple;
+  border-color: #40739e;
 }
 
 .progress.purple .progress-right .progress-bar {
   animation: loading-6 1s linear forwards 1.8s;
 }
 
-/*    Teal    */
 .progress.teal .progress-bar {
-  border-color: teal;
+  border-color: #40739e;
 }
 
 .progress.teal .progress-right .progress-bar {
   animation: loading-6 1s linear forwards 1.8s;
 }
 
-/*    Aqua    */
 .progress.aqua .progress-bar {
-  border-color: aqua;
+  border-color: #40739e;
 }
 
 .progress.aqua .progress-right .progress-bar {
