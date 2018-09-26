@@ -1,7 +1,7 @@
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.getElementById("mooveSlide1").className = "slideInLeft animated";
         document.getElementById("mooveSlide1").style.display = "block";
       } else {
