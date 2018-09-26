@@ -19,7 +19,8 @@ header {
 header h1, header a {
   background-color: rgba(0,0,0, 0.6);
   font-size: 5vh;
-  border: 10px solid #f1f1f1;
+  border: 10px solid;
+  border-color: #fbc531 #fbc531 white white;
 }
 
 header a {
