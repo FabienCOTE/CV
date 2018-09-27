@@ -16,14 +16,14 @@ function myFunction() {
   }
 
   if (document.body.scrollTop > 2800 || document.documentElement.scrollTop > 2800) {
-    document.getElementById("mooveSlide3").className = "zoomIn animated5";
+    document.getElementById("mooveSlide3").className = "zoomIn animated3";
     document.getElementById("mooveSlide3").style.display = "block";
   } else {
     document.getElementById("mooveSlide3").style.display = "none";
   }
 
   if (document.body.scrollTop > 3900 || document.documentElement.scrollTop > 3900) {
-    document.getElementById("mooveSlide4").className = "slideInRight animated";
+    document.getElementById("mooveSlide4").className = "zoomIn animated3";
     document.getElementById("mooveSlide4").style.display = "block";
   } else {
     document.getElementById("mooveSlide4").style.display = "none";
