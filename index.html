@@ -17,7 +17,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="pt-5 h-100 align text-center col-lg-4 col-md-12 col-sm-12 col-xs-12">
-          <a id="flash" class="animated flash w-75 p-2 font-weight-bold" href="#">Télécharger mon CV complet</a>
+          <a id="flash" class="animated wobble w-75 p-2 font-weight-bold" href="#">Télécharger mon CV complet</a>
         </div>
         <div class="vertical-align text-center text-white col-lg-4 col-md-12 col-sm-12 col-xs-12">
           <h1 class="animated fadeInDownBig text-uppercase p-3 font-weight-bold"><span class="color">F</span>abien <span class="color">C</span>ôté</h1>
@@ -57,8 +57,16 @@
   <section id="aboutme" class="container-fluid">
     <div id="mooveSlide1">
       <h1><span class="colorA">P</span>résentation</h1>
-      <div class="container text-center mb-5">
-        <img class="rounded-circle" src="images/me.jpg" alt="Photo de profil de Fabien Côté">
+      <div class="mb-5">
+        <div class="progress circle">
+          <span class="progress-left">
+            <span class="progress-bar"></span>
+          </span>
+          <span class="progress-right">
+            <span class="progress-bar"></span>
+          </span>
+          <div class="progress-value"><img class="rounded-circle" src="images/me.jpg" alt="Photo de profil de Fabien Côté"></div>
+        </div>
       </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
@@ -70,8 +78,8 @@
       <div class="container mt-5">
         <h2 class="mb-5"><span class="colorB font-weight-bold">L</span>angage</h2>
         <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="progress blue">
+          <div class="col-md col-sm-6">
+            <div class="progress html">
               <span class="progress-left">
                 <span class="progress-bar"></span>
               </span>
@@ -79,13 +87,13 @@
                 <span class="progress-bar"></span>
               </span>
               <div class="progress-value">
-                <p>80%</p>
+                <p>90%</p>
               </div>
             </div>
             <p class="text-center text-uppercase mt-2 mb-5">html</p>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="progress yellow">
+          <div class="col-md col-sm-6">
+            <div class="progress css">
               <span class="progress-left">
                 <span class="progress-bar"></span>
               </span>
@@ -98,8 +106,8 @@
             </div>
             <p class="text-center text-uppercase mt-2 mb-5">css</p>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="progress pink">
+          <div class="col-md col-sm-6">
+            <div class="progress js">
               <span class="progress-left">
                 <span class="progress-bar"></span>
               </span>
@@ -112,8 +120,8 @@
             </div>
             <p class="text-center text-uppercase mt-2 mb-5">javascript</p>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="progress green">
+          <div class="col-md col-sm-6">
+            <div class="progress php">
               <span class="progress-left">
                 <span class="progress-bar"></span>
               </span>
@@ -121,18 +129,32 @@
                 <span class="progress-bar"></span>
               </span>
               <div class="progress-value">
-                <p>10%</p>
+                <p>60%</p>
               </div>
             </div>
-            <p class="text-center text-uppercase mt-2 mb-5">...</p>
+            <p class="text-center text-uppercase mt-2 mb-5">php</p>
+          </div>
+          <div class="col-md col-sm-6">
+            <div class="progress sql">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">
+                <p>30%</p>
+              </div>
+            </div>
+            <p class="text-center text-uppercase mt-2 mb-5">sql</p>
           </div>
         </div>
       </div>
       <div class="container mt-5">
         <h2 class="mb-5"><span class="colorC font-weight-bold">F</span>ramework</h2>
         <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="progress red">
+          <div class="col-md-4 col-sm-6">
+            <div class="progress bs">
               <span class="progress-left">
                 <span class="progress-bar"></span>
               </span>
@@ -145,8 +167,8 @@
             </div>
             <p class="text-center text-uppercase mt-2 mb-5">bootstrap</p>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="progress purple">
+          <div class="col-md-4 col-sm-6">
+            <div class="progress jq">
               <span class="progress-left">
                 <span class="progress-bar"></span>
               </span>
@@ -159,8 +181,8 @@
             </div>
             <p class="text-center text-uppercase mt-2 mb-5">Jquery</p>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="progress teal">
+          <div class="col-md-4 col-sm-6">
+            <div class="progress ajs">
               <span class="progress-left">
                 <span class="progress-bar"></span>
               </span>
@@ -173,20 +195,6 @@
             </div>
             <p class="text-center text-uppercase mt-2 mb-5">AngularJS</p>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="progress aqua">
-              <span class="progress-left">
-                <span class="progress-bar"></span>
-              </span>
-              <span class="progress-right">
-                <span class="progress-bar"></span>
-              </span>
-              <div class="progress-value">
-                <p>10%</p>
-              </div>
-            </div>
-            <p class="text-center text-uppercase mt-2 mb-5">...</p>
-          </div>
         </div>
       </div>
     </div>
@@ -195,14 +203,47 @@
   <section id="formation" class="container-fluid">
     <div id="mooveSlide3">
       <h1><span class="colorA">F</span>ormation</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="container mt-5 mb-5">
+      	<ul class="timeline">
+      		<li>
+      			<p class="colorA font-weight-bold">Développement web<span class="float-right">2019</span></p>
+      			<p class="ml-3">Préparation au Titre Professionnel « Développeur-se logiciel » RNCP 5927 niveau III BAC+2 à LA MANU - Le Havre</p>
+      		</li>
+      		<li>
+      			<p class="colorA font-weight-bold">Baccalauréat STG<span class="float-right">2009</span></p>
+      			<p class="ml-3">Baccalauréat Science Technique de la Gestion option Ressources Humaines et Communication au lycée Robert Schuman - Le Havre</p>
+      		</li>
+      		<li>
+      			<p class="colorA font-weight-bold">Brevet des collèges<span class="float-right">2005</span></p>
+      			<p class="ml-3">Brevet des collèges au collège René Descartes - Le Havre</p>
+            <p class="ml-3">Brevet informatique et internet niveau 2 au collège Renée Descartes - Le Havre</p>
+      		</li>
+      	</ul>
+      </div>
     </div>
   </section>
   <section id="picture3"></section>
   <section id="experience" class="container-fluid">
     <div id="mooveSlide4">
       <h1><span class="colorA">E</span>xpériences</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="container mt-5 mb-5">
+      	<ul class="timeline">
+      		<li>
+      			<p class="colorA font-weight-bold">Chef de secteur<span class="float-right">03/2017 - 02/2018</span></p>
+      			<p class="ml-3">Chef de secteur chez CPM France mandaté par Hewlett Packard</p>
+            <p class="ml-3">Gestion d'un portefeuille clients en GMS, magasins spécialisés et enseignes professionnelles pour réaliser desvisites commerciales axées autour des 4P et de la pédagogie (Formation des vendeurs aux différents produits)</p>
+      		</li>
+      		<li>
+      			<p class="colorA font-weight-bold">Promoteur des ventes<span class="float-right">04/2013 - 02/2017</span></p>
+      			<p class="ml-3">Promoteur des ventes chez CPM France mandaté par PepsiCo France</p>
+            <p class="ml-3">Gestion d'un parc de supermarchés, optimisation du référencement des produits, en charge du « sell-in » et du « sell-out » dans les supermarchés. Mission de soutien du responsable de secteur en hypermarché</p>
+          </li>
+      		<li>
+      			<p class="colorA font-weight-bold">Employé de magasin<span class="float-right">09/2009 - 03/2103</span></p>
+      			<p class="ml-3"></p>
+      		</li>
+      	</ul>
+      </div>
     </div>
   </section>
   <section id="picture4"></section>

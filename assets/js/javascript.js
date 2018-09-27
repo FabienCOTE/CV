@@ -16,7 +16,7 @@ function myFunction() {
   }
 
   if (document.body.scrollTop > 2800 || document.documentElement.scrollTop > 2800) {
-    document.getElementById("mooveSlide3").className = "slideInLeft animated";
+    document.getElementById("mooveSlide3").className = "zoomIn animated5";
     document.getElementById("mooveSlide3").style.display = "block";
   } else {
     document.getElementById("mooveSlide3").style.display = "none";
