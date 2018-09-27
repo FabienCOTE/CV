@@ -129,6 +129,13 @@ header a:hover {
   padding:15px 5px;transition:0.2s;
 }
 
+/*    aboutme   */
+#mooveSlide1 img {
+  border: 5px solid #fbc531;
+  max-width: 15%;
+  height: auto;
+}
+
 /*    footer  */
 footer {
   background-color: #343A40;
