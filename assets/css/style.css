@@ -1,4 +1,4 @@
-/*    Button Scroll Top   */
+/*  Button Scroll Top */
 #myBtn {
   display: none;
   position: fixed;
@@ -9,23 +9,28 @@
   padding: 15px;
 }
 
-/*    Header    */
+/*  Header  */
 header {
   background: url(../../images/home.jpg) no-repeat bottom;
   background-size: cover;
   height: 500px;
 }
 
-header h1, header a {
+header h1, header a, .download:hover {
+  text-decoration: none;
   background-color: rgba(0,0,0, 0.6);
-  font-size: 5vh;
+  font-size: 3rem;
   border: 10px solid;
   border-color: #fbc531 #fbc531 white white;
 }
 
-header a {
+.download, .download:hover {
+  background-color:inherit;
+}
+
+header a, .download:hover {
   color: white;
-  font-size: 2vh;
+  font-size: 1rem;
   border: 3px solid #f1f1f1;
 }
 
@@ -46,7 +51,7 @@ header a {
   justify-content: center;
 }
 
-/*    Background Section    */
+/*  Background Section  */
 #picture1 {
   background: url(../../images/picture1.jpg) no-repeat center center fixed;
 }
@@ -67,7 +72,7 @@ header a {
   opacity: 0.5;
 }
 
-/*    Section   */
+/*  Section */
 section:target {
   padding-top: 5em;
   margin-top: -2em;
@@ -88,8 +93,8 @@ section h1 {
   display: none;
 }
 
-/*    mise en page    */
-header a:hover {
+/* Body */
+header a:hover, .download {
   color: #fbc531;
   text-decoration: none;
   border: 3px solid #fbc531;
@@ -107,7 +112,7 @@ header a:hover {
   color: #40739e;
 }
 
-/*    animated  */
+/*  Animate */
 .animated3 {
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
@@ -115,7 +120,7 @@ header a:hover {
     animation-fill-mode: both;
 }
 
-/*    navbar  */
+/*  NavBar  */
 .nav-item::after {
   content:'';
   display:block;
@@ -137,85 +142,14 @@ header a:hover {
   padding:15px 5px;transition:0.2s;
 }
 
-/*    aboutme   */
+/*  AboutMe */
 #mooveSlide1 img {
   max-width: 90%;
   height: auto;
 }
 
-/*    footer  */
-footer {
-  background-color: #343A40;
-  height: 75px;
-}
-
-/* footer social icons */
-ul.social-network {
-	list-style: none;
-	display: inline;
-	margin-left:0 !important;
-	padding: 0;
-}
-
-ul.social-network li {
-	display: inline;
-	margin: 0 5px;
-}
-
-/* footer social icons */
-.social-network a {
-  background-color: #fbc531;
-}
-
-.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
-	color:#fff;
-}
-
-a.socialIcon:hover, .socialHoverClass {
-	color:#44BCDD;
-}
-
-.social-circle li a {
-	display:inline-block;
-	position:relative;
-	margin:0 auto 0 auto;
-	-moz-border-radius:50%;
-	-webkit-border-radius:50%;
-	border-radius:50%;
-	text-align:center;
-	width: 50px;
-	height: 50px;
-	font-size:20px;
-}
-
-.social-circle li i {
-	margin:0;
-	line-height:50px;
-	text-align: center;
-}
-
-.social-circle li a:hover i, .triggeredHover {
-	-moz-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	-ms--transform: rotate(360deg);
-	transform: rotate(360deg);
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-.social-circle i {
-	color: #fff;
-	-webkit-transition: all 0.8s;
-	-moz-transition: all 0.8s;
-	-o-transition: all 0.8s;
-	-ms-transition: all 0.8s;
-	transition: all 0.8s;
-}
-
-/*    Progress Bar Circle  */
+/*  Skills  */
+/*  Progress Bar Circle */
 .progress {
   width: 150px;
   height: 150px;
@@ -287,15 +221,17 @@ a.socialIcon:hover, .socialHoverClass {
   height: 90%;
   border-radius: 50%;
   background: #44484b;
-  font-size: 3vh;
+  font-size: 1rem;
   color: #fff;
+  font-weight: bold;
   line-height: 135px;
   text-align: center;
   position: absolute;
   top: 5%;
   left: 5%;
 }
-/*    circle    */
+
+/*  Circle  */
 .progress.circle .progress-bar {
   border-color: #fbc531 ;
 }
@@ -308,7 +244,7 @@ a.socialIcon:hover, .socialHoverClass {
   animation: loading-1 1.8s linear forwards;
 }
 
-/*    language    */
+/*  Language  */
 .progress.html .progress-bar {
   border-color: #44bd32 ;
 }
@@ -341,7 +277,7 @@ a.socialIcon:hover, .socialHoverClass {
   animation: loading-4 1s linear forwards 1.8s ;
 }
 
-/*    Framework   */
+/*  Framework  */
 .progress.bs .progress-bar {
   border-color: #40739e;
 }
@@ -436,7 +372,8 @@ a.socialIcon:hover, .socialHoverClass {
   }
 }
 
-/*    timeline    */
+/*  Skills / Formation  */
+/*  Timeline  */
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -471,8 +408,137 @@ ul.timeline > li:before {
     z-index: 400;
 }
 
+/*  Contact */
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.services-inner {
+    border: 2px solid #fbc531;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.our-services-img {
+    float: left;
+    margin-left: -36px;
+    margin-right: 22px;
+    margin-top: 28px;
+}
+
+.our-services-text {
+    padding-right: 10px;
+}
+
+.our-services-text {
+    overflow: hidden;
+    padding: 28px 0 25px;
+}
+
+.our-services-text h4 {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.our-services-text h4::before {
+    background: #ec6d48 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 35px;
+}
+
+.our-services-wrapper:hover .services-inner {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid transparent;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.our-services-text p {
+    margin-bottom: 0;
+}
+
+/*  Footer  */
+footer {
+  background-color: #343A40;
+  min-height: 100px;
+}
+
+/*  Social Icons  */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a {
+  background-color: #fbc531;
+}
+
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+/*  Media */
 @media only screen and (max-width: 990px) {
-  /*    Progress Bar Circle */
+  /*  Progress Bar Circle */
   .progress {
     margin-bottom: 20px;
   }
