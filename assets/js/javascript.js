@@ -30,7 +30,7 @@ function myFunction() {
   }
 
   if (document.body.scrollTop > 5200 || document.documentElement.scrollTop > 5200) {
-    document.getElementById("mooveSlide5").className = "slideInLeft animated";
+    document.getElementById("mooveSlide5").className = "flipInX animated3";
     document.getElementById("mooveSlide5").style.display = "block";
   } else {
     document.getElementById("mooveSlide5").style.display = "none";
