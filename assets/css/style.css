@@ -570,4 +570,8 @@ a.socialIcon:hover, .socialHoverClass {
   #myBtn {
     visibility: hidden;
   }
+
+  .social {
+    margin-top: 20px;
+  }
 }
